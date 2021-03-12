@@ -112,9 +112,11 @@
 
     <script src="./UE_WebSlides/js/webslides.js"></script>
     <script>
-        WebSlides.registerPlugin('scroll', function(){});
+        // WebSlides.registerPlugin('scroll', function(){});
         window.ws = new WebSlides({
-            loop: false
+            loop: false,
+            changeOnClick: true,
+            navigateOnScroll: false
         })
     </script>
 </body>
