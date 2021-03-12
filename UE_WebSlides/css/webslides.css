@@ -1472,7 +1472,8 @@ section,
 .slide-bottom {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: flex-end; }
+          justify-content: flex-end; 
+        margin-bottom: 100px;}
 
 /*== 5.1. Mini container width:50%
 Aligned items [class*="content-"]=== */
