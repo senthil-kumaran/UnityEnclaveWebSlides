@@ -1473,7 +1473,8 @@ section,
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end; 
-        margin-bottom: 100px;}
+          padding-bottom: 50px;
+        }
 
 /*== 5.1. Mini container width:50%
 Aligned items [class*="content-"]=== */
