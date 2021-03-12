@@ -24,7 +24,7 @@
                         <a href="#" class="button zoomIn">Swipe to Explore</a>
                     </p>
                     <p style="display: inline-block; margin-left: 25px;">
-                        👆 &rarr;
+                        &larr; 👆
                     </p>
                 </div>
             </section>
@@ -113,7 +113,9 @@
     <script src="./UE_WebSlides/js/webslides.js"></script>
     <script>
         WebSlides.registerPlugin('scroll', function(){});
-        window.ws = new WebSlides()
+        window.ws = new WebSlides({
+            loop: false
+        })
     </script>
 </body>
 </html>
